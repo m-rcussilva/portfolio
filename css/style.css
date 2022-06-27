@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 :root {
-    --primary-color: #414f88;
-    --secondary-color: #6374ae;
-    --tertiary-color: #f5f6fa;
+    --primary-color: #4754ae;
+    --secondary-color: #5b6dc2;
+    --tertiary-color: #F27E9D;
     --text-color: #f5f5f5;
+    --primary-br: 16px;
+    --secondary-br: 8px;
 }
 
 * {
@@ -46,7 +48,7 @@ a {
 .header a::after {
     content: '';
     display: block;
-    background-color: var(--tertiary-color);
+    background-color: var(--text-color);
     width: 0;
     height: 2px;
     transition: width 0.3s;
@@ -73,4 +75,28 @@ a {
 
 .section-one p {
     font-size: 1.5rem;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+}
+
+.btn-container button {
+    background-color: var(--tertiary-color);
+    border: 2px solid var(--tertiary-color);
+    outline: 0;
+    border-radius: var(--secondary-br);
+    color: var(--text-color);
+    font-size: 1.4rem;
+    padding: 0.6em 2.2em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-container button:hover {
+    background-color: transparent;
+    color: var(--tertiary-color);
 }
