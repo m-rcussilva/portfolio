@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+    --primary-color: #414f88;
+    --secondary-color: #6374ae;
+    --tertiary-color: #f5f6fa;
+    --text-color: #f5f5f5;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6em 6em;
+}
+
+.header a {
+    color: var(--text-color);
+    display: inline-block;
+}
+
+.header a::after {
+    content: '';
+    display: block;
+    background-color: var(--tertiary-color);
+    width: 0;
+    height: 2px;
+    transition: width 0.3s;
+}
+
+.header a:hover::after {
+    width: 100%;
+}
+
+.section-one {
+    padding: 4em 6em;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.section-one h4 {
+    font-size: 1.5rem;
+}
+
+.section-one h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.section-one p {
+    font-size: 1.5rem;
+}
