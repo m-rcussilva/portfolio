@@ -201,3 +201,13 @@ hr.hr1 {
     align-items: center;
     justify-content: center;
 }
+
+.footer {
+    padding: 6em;
+    display: grid;
+    place-content: center;
+}
+
+.footer p {
+    color: var(--secondary-color);
+}
