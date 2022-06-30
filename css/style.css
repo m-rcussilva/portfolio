@@ -3,7 +3,7 @@
 :root {
     --primary-color: #000;
     --secondary-color: #191a1e;
-    --tertiary-color: #F27E9D;
+    --tertiary-color: #3f2b96;
     --text-color: #fff;
     --border-radius-one: 16px;
     --border-radius-two: 8px;
@@ -57,12 +57,17 @@ input {
     height: 10vh;
 }
 
+.header .logo {
+    font-family: 'Imperial Script', cursive;
+    font-size: 2rem;
+}
+
 .header a {
     color: var(--text-color);
     display: inline-block;
 }
 
-.header a::after {
+.header .contact::after {
     content: '';
     display: block;
     background-color: var(--tertiary-color);
@@ -71,7 +76,7 @@ input {
     transition: width 0.2s;
 }
 
-.header a:hover::after {
+.header .contact:hover::after {
     width: 100%;
 }
 
@@ -87,6 +92,17 @@ input {
 
 .section-one h5 {
     font-size: 2rem;
+    animation: slide-in 0.7s both;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateY(-1000px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .section-one h1 {
@@ -101,29 +117,29 @@ input {
     justify-content: center;
 }
 
-.section-two .fa-solid {
-    cursor: pointer;
-}
-
 .section-two a {
     color: var(--text-color);
 }
 
 /* MAIN and PROJECTS*/
 .main {
-    padding: 2em 6em;
-    margin-bottom: 1em;
+    padding: 0.5em 6em;
+    height: 50vh;
+    display: grid;
+    place-content: center;
+    background: linear-gradient(to right, #a8c0ff, #3f2b96);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.main .main-info {
-    background-color: var(--secondary-color);
-    height: 340px;
+.main-info {
+    text-align: center;
 }
 
 .projects-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
-    gap: 25px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill, minmax(480px, 1fr); */
+    /* gap: 25px; */
     padding: 1em;
 }
 
@@ -136,9 +152,8 @@ input {
 }
 
 .projects-card-left h2 {
-    font-family: 'Imperial Script', cursive;
     margin-bottom: 10px;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .projects-card-left p {
@@ -152,4 +167,10 @@ input {
 
 .projects-container .socials .fa-brands {
     color: #eee;
+    transition: 0.1s ease-in-out;
+}
+
+.projects-container .socials .fa-brands:hover {
+    color: var(--tertiary-color);
+    transform: scale(1.2);
 }
