@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
 :root {
     --primary-color: #000;
     --secondary-color: #191a1e;
@@ -107,41 +109,47 @@ input {
     color: var(--text-color);
 }
 
-/* page two */
+/* MAIN and PROJECTS*/
 .main {
     padding: 2em 6em;
+    margin-bottom: 1em;
 }
 
-.main-projects-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.main .card-container {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(500px, 1fr));
-    gap: 25px;
-}
-
-.main .card {
+.main .main-info {
     background-color: var(--secondary-color);
     height: 340px;
 }
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(2, minmax(480px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
     gap: 25px;
     padding: 1em;
 }
 
-.projects-container-left {
+.projects-card-left {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 0 1em;
+    text-align: center;
 }
 
-/* .projects-container img {
-    background-color: pink;
-} */
+.projects-card-left h2 {
+    font-family: 'Imperial Script', cursive;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+}
+
+.projects-card-left p {
+    margin-bottom: 15px;
+}
+
+.projects-container .socials {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.projects-container .socials .fa-brands {
+    color: #eee;
+}
