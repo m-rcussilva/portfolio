@@ -1,1 +1,35 @@
+:root {
+    --primary-color: #262833;
+}
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: 1.5;
+    background-color: var(--primary-color);
+    color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: revert;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    background-color: var(--primary-color);
+}
