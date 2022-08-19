@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 
 :root {
     --primary-color: #262833;
     --text-color: #f2f2f2;
     --link-color: #36c7d0;
-    --post-date-color: #3B3D47;
+    --post-date-color: #3b3d47;
 }
 
 * {
@@ -12,7 +12,8 @@
     margin: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -21,7 +22,8 @@ body {
     line-height: 1.5;
     background-color: var(--primary-color);
     color: var(--text-color);
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -37,7 +39,9 @@ ul {
     padding-left: 0;
 }
 
-img, video, picture {
+img,
+video,
+picture {
     display: block;
     max-width: 100%;
 }
@@ -60,6 +64,7 @@ img, video, picture {
 .nav {
     text-align: center;
     padding: 1.5em 0;
+    margin-bottom: 1.5em;
 }
 
 .nav-ul a {
@@ -71,12 +76,8 @@ img, video, picture {
     padding: 1em 0.5em;
 }
 
-/* .article { */
-/*     margin-bottom: 2em; */
-/* } */
-
 .article-header {
-    padding:  0.5em 0;
+    padding: 0.5em 0;
 }
 
 .article-footer {
@@ -91,5 +92,5 @@ img, video, picture {
 }
 
 .article-footer .post-date {
-    color: var(--post-date-color); 
+    color: var(--post-date-color);
 }
