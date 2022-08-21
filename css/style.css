@@ -80,6 +80,10 @@ picture {
     padding: 0.5em 0;
 }
 
+.article-title {
+    margin-bottom: 5px;
+}
+
 .article-footer {
     display: flex;
     align-items: center;

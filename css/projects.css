@@ -1,0 +1,8 @@
+:root {
+    --article-subtitle-color: #4b4e63; 
+}
+
+.article-subtitle {
+    color: var(--article-subtitle-color);
+    margin-bottom: 5px;
+}
