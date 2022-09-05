@@ -72,7 +72,7 @@ picture {
     padding: 0 0.4em;
 }
 
-.nav-ul a:is(:active, :visited).active {
+.nav-ul a:is(:link, :visited).active {
     text-decoration:  underline;
 }
 
