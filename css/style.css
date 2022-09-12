@@ -53,7 +53,6 @@ picture {
 .main-content {
     max-width: 40em;
     margin: 0 auto;
-    /* border: 1px solid #313350; */
 }
 
 .header {
@@ -70,9 +69,10 @@ picture {
 .nav-ul a {
     color: var(--link-color);
     padding: 0 0.4em;
+    transition: all 0.1s ease-in-out;
 }
 
-.nav-ul a:is(:link, :active, :visited).active {
+.nav-ul #current {
     text-decoration: underline;
 }
 
