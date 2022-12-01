@@ -1,0 +1,14 @@
+.Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.HomeUl {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 30px;
+}

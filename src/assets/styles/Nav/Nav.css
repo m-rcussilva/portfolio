@@ -1,0 +1,11 @@
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.NavUl {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
