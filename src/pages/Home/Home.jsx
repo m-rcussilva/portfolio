@@ -6,8 +6,8 @@ const Home = () => {
             <h1 className="HomeTitle">Marcus Silva</h1>
 
             <ul className="HomeUl">
-                <li><a href="https://github.com/m-rcussilva" target="_blank">Github</a></li>
-                <li><a href="#">LinkedIn</a></li>
+                <li><a className="HomeSocialMediaLinks" href="https://github.com/m-rcussilva" target="_blank">Github</a></li>
+                <li><a className="HomeSocialMediaLinks" href="#">LinkedIn</a></li>
             </ul>
         </div>
     )
