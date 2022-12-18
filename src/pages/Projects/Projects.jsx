@@ -3,15 +3,27 @@ import "../../assets/styles/Projects/Projects.css"
 const Projects = () => {
     return (
         <div className="ProjectsCard">
-            <div className="ProjectsTitle">
-                <span className="ProjectsDate">01 Dec, 2022</span>
-                <h2>Simple CRUD App</h2>
+            <h2>Projetos Atuais e Antigos</h2>
+
+            <div className="CurrentProjects">
+                <h3>Projetos atuais</h3>
+                <ul>
+                    <li>
+                        <a href="#">api-fps-games</a> - Uma API de jogos FPS
+                        (First-Person Shooter)
+                    </li>
+                </ul>
             </div>
 
-            <p>
-                Creat, Read, Update e Delete são as funcionalidades mais simples de uma aplicação.
-            </p>
-            <a href="https://github.com/m-rcussilva/javascript/tree/main/simpleCrudApp" target="_blank">Read more</a>
+            <div className="OldProjects">
+                <h3>Projetos antigos</h3>
+                <ul>
+                    <li>
+                        <a href="#">simple-crud-app</a> - Um simples CRUD com
+                        Vanilla JS
+                    </li>
+                </ul>
+            </div>
         </div>
     )
 }
