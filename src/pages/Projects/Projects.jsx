@@ -19,8 +19,13 @@ const Projects = () => {
                 <h3>Projetos antigos</h3>
                 <ul>
                     <li>
-                        <a href="#">simple-crud-app</a> - Um simples CRUD com
-                        Vanilla JS
+                        <a
+                            href="https://simpecrudapp.surge.sh/"
+                            target="_blank"
+                        >
+                            simple-crud-app
+                        </a>{" "}
+                        - Um simples CRUD com Vanilla JS
                     </li>
                 </ul>
             </div>
