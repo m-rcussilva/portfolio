@@ -9,8 +9,7 @@ const Projects = () => {
                 <h3>Projetos atuais</h3>
                 <ul>
                     <li>
-                        <a href="#">api-fps-games</a> - Uma API de jogos FPS
-                        (First-Person Shooter)
+                        <a href="#">api</a> - API
                     </li>
                 </ul>
             </div>
