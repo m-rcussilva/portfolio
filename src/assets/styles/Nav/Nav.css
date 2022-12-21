@@ -9,3 +9,18 @@
     display: flex;
     gap: 20px;
 }
+
+.NavLi {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    font-size: 1.2rem;
+    transition: border-color 0.25s;
+}
+.NavLi:hover {
+    border-color: #646cff;
+}
+.NavLi:focus,
+.NavLi:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}

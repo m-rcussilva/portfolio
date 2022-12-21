@@ -1,12 +1,5 @@
 .ProjectsCard {
-    background-color: #fafafa;
-    border: 1px solid #ededed;
-    border-radius: 8px;
     padding: 1em;
     max-width: 680px;
     margin: 4em auto;
-}
-
-.ProjectsDate {
-    color: #bcbcbc;
 }

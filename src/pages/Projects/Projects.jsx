@@ -3,10 +3,10 @@ import "../../assets/styles/Projects/Projects.css"
 const Projects = () => {
     return (
         <div className="ProjectsCard">
-            <h2>Projetos Atuais e Antigos</h2>
+            <h2>Projetos em andamento e concluídos</h2>
 
             <div className="CurrentProjects">
-                <h3>Projetos atuais</h3>
+                <h3>Projetos em andamento</h3>
                 <ul>
                     <li>
                         <a href="#">api</a> - API
@@ -15,7 +15,7 @@ const Projects = () => {
             </div>
 
             <div className="OldProjects">
-                <h3>Projetos antigos</h3>
+                <h3>Projetos concluídos</h3>
                 <ul>
                     <li>
                         <a
