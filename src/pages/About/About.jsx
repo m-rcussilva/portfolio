@@ -12,6 +12,10 @@ const About = () => {
             <p className="AboutInfo">
                 Possuo conhecimento básico em Java, Go, Ruby e JavaScript.
             </p>
+            <p>
+                Atualmente estou aprendendo Desenvolvimento Mobile com React
+                Native
+            </p>
 
             <div>
                 <h3>Link para minha conta no Github</h3>
