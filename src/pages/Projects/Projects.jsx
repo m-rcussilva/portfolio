@@ -19,6 +19,15 @@ const Projects = () => {
                 <ul>
                     <li>
                         <a
+                            href="https://my-simple-calculator.surge.sh/"
+                            target="_blank"
+                        >
+                            my-simple-calculator
+                        </a>{" "}
+                        - Uma calculadora básica em JavaScript
+                    </li>
+                    <li>
+                        <a
                             href="https://simpecrudapp.surge.sh/"
                             target="_blank"
                         >

@@ -3,3 +3,11 @@
     max-width: 680px;
     margin: 4em auto;
 }
+
+.CurrentProjects ul li {
+    margin-bottom: 5px;
+}
+
+.OldProjects ul li {
+    margin-bottom: 5px;
+}
