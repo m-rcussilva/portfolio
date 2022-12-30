@@ -10,9 +10,10 @@ const About = () => {
             </p>
 
             <p className="AboutInfo">
-                Possuo conhecimento básico em Java, Go, Ruby e JavaScript.
+                Linguagens de programação as quais possuo conhecimento básico:
+                JavaScript e Ruby.
             </p>
-            <p>Atualmente estou aprendendo Desenvolvimento Mobile</p>
+            <p>Atualmente estou aprendendo a programar em Rust</p>
 
             <div>
                 <h3>Link para minha conta no Github</h3>
