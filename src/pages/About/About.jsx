@@ -5,15 +5,14 @@ const About = () => {
         <div className="AboutCard">
             <h2>Sobre mim</h2>
             <p className="AboutInfo">
-                Olá, eu sou Marcus Silva, moro em Salgueiro - PE e atualmente
-                curso Análise e Desenvolvimento de Sistemas no Senac.
+                Olá, eu sou Marcus Silva e estudo Análise e Desenvolvimento.
             </p>
 
             <p className="AboutInfo">
-                Linguagens de programação as quais possuo conhecimento básico:
-                JavaScript e Ruby.
+                Linguagens de programção as quais possuo conhecimento básico:
+                JavaScript e Java.
             </p>
-            <p>Atualmente estou aprendendo a programar em Rust</p>
+            <p>Atualmente estou aprendendo a programar em Rust.</p>
 
             <div>
                 <h3>Link para minha conta no Github</h3>
