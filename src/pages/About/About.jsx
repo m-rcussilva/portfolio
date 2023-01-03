@@ -5,7 +5,8 @@ const About = () => {
         <div className="AboutCard">
             <h2>Sobre mim</h2>
             <p className="AboutInfo">
-                Olá, eu sou Marcus Silva e estudo Análise e Desenvolvimento.
+                Olá, eu sou Marcus Silva e estudo Análise e Desenvolvimento de
+                Sistemas.
             </p>
 
             <p className="AboutInfo">
