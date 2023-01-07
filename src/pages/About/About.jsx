@@ -13,7 +13,7 @@ const About = () => {
                 Linguagens de programção as quais possuo conhecimento básico:
                 JavaScript e Java.
             </p>
-            <p>Atualmente estou aprendendo a programar em Rust.</p>
+            <p>Atualmente estou aprendendo a VueJS, PHP e Laravel</p>
 
             <div>
                 <h3>Link para minha conta no Github</h3>
