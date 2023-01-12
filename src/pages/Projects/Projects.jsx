@@ -24,8 +24,7 @@ const Projects = () => {
                         >
                             create-an-avatar
                         </a>{" "}
-                        - Aprendendo os conceitos básicos de VueJS com um
-                        pequeno projeto. #just4fun
+                        - Aprendendo os conceitos básicos de VueJS
                     </li>
 
                     <li>
