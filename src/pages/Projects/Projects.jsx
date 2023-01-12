@@ -19,6 +19,17 @@ const Projects = () => {
                 <ul>
                     <li>
                         <a
+                            href="https://create-your-avatar.surge.sh/"
+                            target="_blank"
+                        >
+                            create-an-avatar
+                        </a>{" "}
+                        - Aprendendo os conceitos básicos de VueJS com um
+                        pequeno projeto. #just4fun
+                    </li>
+
+                    <li>
+                        <a
                             href="https://my-simple-calculator.surge.sh/"
                             target="_blank"
                         >
@@ -26,6 +37,7 @@ const Projects = () => {
                         </a>{" "}
                         - Uma calculadora básica em JavaScript
                     </li>
+
                     <li>
                         <a
                             href="https://simpecrudapp.surge.sh/"
