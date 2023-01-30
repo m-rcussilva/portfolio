@@ -13,8 +13,7 @@ function Projects() {
                             href="https://create-your-avatar.surge.sh/"
                             target="_blank"
                         >
-                            Crie um avatar - Aprendendo os conceitos básicos de
-                            VueJS
+                            Aprendendo os conceitos básicos de VueJS 2
                         </a>
                         <hr />
                     </article>
@@ -24,7 +23,7 @@ function Projects() {
                             href="https://my-simple-calculator.surge.sh/"
                             target="_blank"
                         >
-                            Calculadora - Uma calculadora simples com Vanilla JS
+                            Uma calculadora simples com Vanilla JS
                         </a>
                         <hr />
                     </article>
@@ -34,8 +33,8 @@ function Projects() {
                             href="https://simpecrudapp.surge.sh/"
                             target="_blank"
                         >
-                            Crud App - Um App simples feito com JS puro que
-                            permite escrever, editar e excluir mensagens
+                            Um App simples feito com JS puro que permite
+                            escrever, editar e excluir mensagens
                         </a>
                         <hr />
                     </article>
