@@ -1,9 +1,19 @@
-import "../../assets/styles/Home/Home.css"
+import About from "../../components/About"
+import styles from "./Home.module.css"
+import Header from "../../components/Header/Header"
+import Projects from "../../components/Projects"
 
-const Home = () => {
+function Home() {
     return (
-        <div className="Home">
-            <h1 className="HomeTitle">Welcome</h1>
+        <div className={styles.Home}>
+            <Header />
+            <div className={styles.HomeMyNameContainer}>
+                <span>Marcus</span>
+                <span>Silva</span>
+                <p className={styles.HomeAboutMe}>Front-end Developer</p>
+            </div>
+            <About />
+            <Projects />
         </div>
     )
 }

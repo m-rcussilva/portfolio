@@ -1,8 +1,8 @@
-import "../../assets/styles/ErrorPage/ErrorPage.css"
+import styles from "./ErrorPage.module.css"
 
-const ErrorPage = () => {
+function ErrorPage() {
     return (
-        <div className="ErrorPage">
+        <div className={styles.ErrorPage}>
             <h1>Page not found</h1>
         </div>
     )

@@ -1,0 +1,54 @@
+.Projects {
+    width: 100%;
+}
+
+.Projects header h4 {
+    /* background-color: var(--purple); */
+    color: var(--lime);
+    text-transform: uppercase;
+    font-family: "Krona One", sans-serif;
+    letter-spacing: 0.15em;
+}
+
+.ProjectsContainer {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.ProjectsContainer section {
+    margin-top: 4em;
+}
+
+.ProjectsContainer section article {
+    margin-bottom: 3em;
+}
+
+.ProjectsContainer section article a {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+.ProjectsContainer section article a:before {
+    content: "";
+    position: absolute;
+    transition: transform 0.5s ease;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--lime);
+    transform: translateX(-100%);
+}
+.ProjectsContainer section article a:hover:before {
+    transform: translateX(0);
+}
+
+.ProjectsContainer section article hr {
+    margin-top: 1em;
+    border-color: var(--secondary);
+}
