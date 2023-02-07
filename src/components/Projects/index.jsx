@@ -20,20 +20,20 @@ function Projects() {
 
                     <article>
                         <a
-                            href="https://create-your-avatar.surge.sh/"
+                            href="https://avatar-editor-vuejs.surge.sh/"
                             target="_blank"
                         >
-                            Aprendendo os conceitos básicos de VueJS 2
+                            Crie um avatar - Fundamentos básicos do VueJS 2
                         </a>
                         <hr />
                     </article>
 
                     <article>
                         <a
-                            href="https://my-simple-calculator.surge.sh/"
+                            href="https://calcculator-js.surge.sh/"
                             target="_blank"
                         >
-                            Uma calculadora simples com Vanilla JS
+                            Uma calculadora modesta com Vanilla JS
                         </a>
                         <hr />
                     </article>
