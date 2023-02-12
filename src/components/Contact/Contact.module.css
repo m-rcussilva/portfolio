@@ -5,12 +5,3 @@
     display: flex;
     justify-content: center;
 }
-
-.socialMediaIcons {
-    transform: scale(1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.socialMediaIcons:hover {
-    transform: scale(1.1);
-}

@@ -9,15 +9,15 @@ function About() {
                     <span>Análise e Desenvolvimento de Sistemas</span>
                 </div>
                 <div>
-                    <p>Resumo de habilidades como Dev de Front-end</p>
+                    <p>Nível ninja: Genin, aka Programador Jr</p>
                     <span>
-                        HTML, CSS, JavaScript, TypeScript e
-                        frameworks/Bibliotecas JS como React
+                        Tenho conhecimento básico em JavaScript, TypeScript,
+                        React, Node.js e Java
                     </span>
                 </div>
                 <div>
                     <p>Aprendendo</p>
-                    <span>Three.js e Blender</span>
+                    <span>Machine Learning com Python</span>
                 </div>
             </div>
         </div>
