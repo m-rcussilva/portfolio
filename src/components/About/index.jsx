@@ -17,7 +17,7 @@ function About() {
                 </div>
                 <div>
                     <p>Aprendendo</p>
-                    <span>React Native e Machine Learning com Python</span>
+                    <span>Swift e Machine Learning com Python</span>
                 </div>
             </div>
         </div>
