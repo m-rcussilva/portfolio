@@ -17,7 +17,7 @@ function About() {
                 </div>
                 <div>
                     <p>Aprendendo</p>
-                    <span>Machine Learning com Python</span>
+                    <span>Ruby e Ruby on Rails</span>
                 </div>
             </div>
         </div>
