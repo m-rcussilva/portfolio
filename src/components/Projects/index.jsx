@@ -10,6 +10,17 @@ function Projects() {
                 <section>
                     <article>
                         <a
+                            href="https://github.com/m-rcussilva/ruby/tree/main/spellchecker"
+                            target="_blank"
+                        >
+                            SpellChecker - CLI Commnand que verifica o nome das
+                            linguages de programção
+                        </a>
+                        <hr />
+                    </article>
+
+                    <article>
+                        <a
                             href="https://unsplashapi-app-searchimages.surge.sh/"
                             target="_blank"
                         >
@@ -23,17 +34,7 @@ function Projects() {
                             href="https://avatar-editor-vuejs.surge.sh/"
                             target="_blank"
                         >
-                            Crie um avatar - Fundamentos básicos do VueJS 2
-                        </a>
-                        <hr />
-                    </article>
-
-                    <article>
-                        <a
-                            href="https://calcculator-js.surge.sh/"
-                            target="_blank"
-                        >
-                            Uma calculadora modesta com Vanilla JS
+                            Edite um avatar - Aprendendo fundamentos do Vue JS 2
                         </a>
                         <hr />
                     </article>
