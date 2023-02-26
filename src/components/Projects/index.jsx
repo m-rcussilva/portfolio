@@ -10,11 +10,22 @@ function Projects() {
                 <section>
                     <article>
                         <a
+                            href="https://github.com/m-rcussilva/ruby/tree/main/markdownProcessor"
+                            target="_blank"
+                        >
+                            Markdown Processor é um CLI tool que converte
+                            arquivo .md para .html
+                        </a>
+                        <hr />
+                    </article>
+
+                    <article>
+                        <a
                             href="https://github.com/m-rcussilva/ruby/tree/main/spellchecker"
                             target="_blank"
                         >
-                            SpellChecker - CLI Commnand que verifica o nome das
-                            linguages de programção
+                            SpellChecker - CLI que verifica o nome das linguages
+                            de programção
                         </a>
                         <hr />
                     </article>
