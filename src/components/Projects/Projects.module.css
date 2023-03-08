@@ -47,6 +47,11 @@
 .ProjectsContainer section article a:hover:before {
     transform: translateX(0);
 }
+@media only screen and (max-width: 535px) {
+    .ProjectsContainer section article a {
+        font-size: 1em;
+    }
+}
 
 .ProjectsContainer section article hr {
     margin-top: 1em;
