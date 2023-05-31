@@ -11,7 +11,6 @@ function Home() {
             <div className={styles.HomeMyNameContainer}>
                 <span>Marcus</span>
                 <span>Silva</span>
-                <p className={styles.HomeAboutMe}>Desempregado 🥲</p>
             </div>
             <About />
             <Contact />

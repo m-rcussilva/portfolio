@@ -5,19 +5,18 @@ function About() {
         <div className={styles.About}>
             <div className={styles.AboutContainer}>
                 <div>
-                    <p>Estudando</p>
+                    <p>Formação acadêmica em andamento</p>
                     <span>Análise e Desenvolvimento de Sistemas</span>
                 </div>
                 <div>
-                    <p>Nível ninja: Genin, aka Programador Jr</p>
+                    <p>🙂</p>
                     <span>
-                        Tenho conhecimento básico em JavaScript, TypeScript,
-                        React, Node.js e Java
+                        ...
                     </span>
                 </div>
                 <div>
-                    <p>Aprendendo</p>
-                    <span>Ruby e Ruby on Rails</span>
+                    <p>🙂</p>
+                    <span>...</span>
                 </div>
             </div>
         </div>
