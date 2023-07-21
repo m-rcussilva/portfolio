@@ -10,10 +10,10 @@ function Projects() {
                 <section>
                     <article>
                         <a
-                            href="#"
+                            href="https://github.com/m-rcussilva/rest-api-sa-countries/tree/main"
                             target="_blank"
                         >
-                            Test
+                            API de Informações sobre Países da América do Sul usando Java Spring Boot e Vue.js
                         </a>
                         <hr />
                     </article> 
