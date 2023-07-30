@@ -10,6 +10,15 @@ function Projects() {
                 <section>
                     <article>
                         <a
+                            href="https://github.com/m-rcussilva/favorite-reads/tree/main"
+                            target="_blank"
+                        >
+                            Web application built with Spring Boot and Thymeleaf. Add book name, author and publication date
+                        </a>
+                        <hr />
+                    </article>
+                    <article>
+                        <a
                             href="https://github.com/m-rcussilva/rest-api-sa-countries/tree/main"
                             target="_blank"
                         >
