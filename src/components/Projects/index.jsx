@@ -13,7 +13,7 @@ function Projects() {
                             href="https://github.com/m-rcussilva/favorite-reads/tree/main"
                             target="_blank"
                         >
-                            Web application built with Spring Boot and Thymeleaf. Add book name, author and publication date
+                            Spring Boot & Thymeleaf app. Add book name, author and publication date
                         </a>
                         <hr />
                     </article>

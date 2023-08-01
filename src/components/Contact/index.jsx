@@ -10,7 +10,7 @@ function Contact() {
                 className={styles.socialMediaIcons}
                 title="Github"
             >
-                <GithubLogo size={32} color="#c1fd01" />
+                <GithubLogo size={32} color="#a8fe39" />
             </a>
         </div>
     )
