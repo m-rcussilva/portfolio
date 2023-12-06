@@ -10,22 +10,24 @@ function Projects() {
                 <section>
                     <article>
                         <a
-                            href="https://github.com/m-rcussilva/favorite-reads/tree/main"
+                            href="https://github.com/m-rcussilva/favorite-reads"
                             target="_blank"
                         >
-                            Spring Boot & Thymeleaf app. Add book name, author and publication date
+                            Projeto de Gestão de Leituras com Spring Boot e
+                            Thymeleaf
                         </a>
                         <hr />
                     </article>
                     <article>
                         <a
-                            href="https://github.com/m-rcussilva/rest-api-sa-countries/tree/main"
+                            href="https://github.com/m-rcussilva/rest-api-sa-countries"
                             target="_blank"
                         >
-                            API de Informações sobre Países da América do Sul usando Java Spring Boot e Vue.js
+                            API de Informações sobre Países da América do Sul
+                            usando Java Spring Boot e Vue.js
                         </a>
                         <hr />
-                    </article> 
+                    </article>
                 </section>
             </div>
         </div>
