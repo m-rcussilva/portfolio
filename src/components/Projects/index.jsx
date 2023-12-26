@@ -10,6 +10,16 @@ function Projects() {
                 <section>
                     <article>
                         <a
+                            href="https://github.com/m-rcussilva/admin-panel"
+                            target="_blank"
+                        >
+                            Painel Administrativo para gerenciamento de
+                            funcionários (obs: em construção)
+                        </a>
+                        <hr />
+                    </article>
+                    <article>
+                        <a
                             href="https://github.com/m-rcussilva/favorite-reads"
                             target="_blank"
                         >
