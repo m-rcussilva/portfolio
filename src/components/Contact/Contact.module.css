@@ -5,3 +5,13 @@
     display: flex;
     justify-content: center;
 }
+
+.GithubLogo {
+    color: var(--text-color);
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.GithubLogo:hover {
+    transform: scale(1.1);
+}

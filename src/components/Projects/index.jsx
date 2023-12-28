@@ -9,6 +9,7 @@ function Projects() {
                 </header>
                 <section>
                     <article>
+                        <p>Ano: 2023</p>
                         <a
                             href="https://github.com/m-rcussilva/admin-panel"
                             target="_blank"
@@ -16,9 +17,9 @@ function Projects() {
                             Painel Administrativo para gerenciamento de
                             funcionários (obs: em construção)
                         </a>
-                        <hr />
                     </article>
                     <article>
+                        <p>Ano: 2023</p>
                         <a
                             href="https://github.com/m-rcussilva/favorite-reads"
                             target="_blank"
@@ -26,9 +27,9 @@ function Projects() {
                             Projeto de Gestão de Leituras com Spring Boot e
                             Thymeleaf
                         </a>
-                        <hr />
                     </article>
                     <article>
+                        <p>Ano: 2023</p>
                         <a
                             href="https://github.com/m-rcussilva/rest-api-sa-countries"
                             target="_blank"
@@ -36,7 +37,6 @@ function Projects() {
                             API de Informações sobre Países da América do Sul
                             usando Java Spring Boot e Vue.js
                         </a>
-                        <hr />
                     </article>
                 </section>
             </div>

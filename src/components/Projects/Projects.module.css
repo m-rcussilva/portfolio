@@ -3,7 +3,6 @@
 }
 
 .Projects header h4 {
-    color: var(--lime);
     text-transform: uppercase;
     font-family: "Krona One", sans-serif;
     letter-spacing: 0.15em;
@@ -31,18 +30,14 @@
     overflow: hidden;
     display: inline-block;
     position: relative;
-    transition: all 0.3s ease;
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
 }
 .ProjectsContainer section article a:hover {
-    color: #bdbdbd;
+    transform: scale(1.01);
 }
 @media only screen and (max-width: 535px) {
     .ProjectsContainer section article a {
         font-size: 1em;
     }
-}
-
-.ProjectsContainer section article hr {
-    margin-top: 1em;
-    border-color: var(--secondary);
 }

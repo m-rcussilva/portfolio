@@ -4,18 +4,16 @@ function About() {
     return (
         <div className={styles.About}>
             <div className={styles.AboutContainer}>
-                <div>
+                <div className={styles.AboutContainerBox}>
                     <p>Formação acadêmica em andamento</p>
                     <span>Análise e Desenvolvimento de Sistemas</span>
                 </div>
-                <div>
-                    <p>🙂</p>
-                    <span>
-                        ...
-                    </span>
+                <div className={styles.AboutContainerBox}>
+                    <p>...</p>
+                    <span>...</span>
                 </div>
-                <div>
-                    <p>🙂</p>
+                <div className={styles.AboutContainerBox}>
+                    <p>...</p>
                     <span>...</span>
                 </div>
             </div>
