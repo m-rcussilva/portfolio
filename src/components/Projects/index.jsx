@@ -15,7 +15,7 @@ function Projects() {
                             target="_blank"
                         >
                             Painel Administrativo para gerenciamento de
-                            funcionários (obs: em construção)
+                            funcionários
                         </a>
                     </article>
                     <article>
