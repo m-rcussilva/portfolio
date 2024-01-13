@@ -2,7 +2,7 @@ import styles from "./Footer.module.css"
 
 const Footer = () => {
     return (
-        <footer className={styles.Footer} id="footer">
+        <footer className={styles.Footer} id="foote">
             <div className={styles.FooterContainer}>
                 <p className={styles.FooterMadeBy}>©2024 MS</p>
 
