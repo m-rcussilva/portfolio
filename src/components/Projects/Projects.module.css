@@ -4,8 +4,6 @@
 
 .Projects header h4 {
     text-transform: uppercase;
-    font-family: "Krona One", sans-serif;
-    letter-spacing: 0.15em;
 }
 
 .ProjectsContainer {
@@ -14,15 +12,29 @@
     padding: 1em;
 }
 
-.ProjectsContainer section {
-    margin-top: 4em;
+.ProjectsContainer header {
+    margin-bottom: 1rem;
 }
 
-.ProjectsContainer section article {
-    margin-bottom: 3em;
+.ProjectsContainer section .Article {
+    margin-bottom: 2.5em;
 }
 
-.ProjectsContainer section article a {
+.YearPublished {
+    font-size: 12px;
+}
+
+.ArticleLink {
+    display: flex;
+    align-items: center;
+}
+
+.ArticleLink span {
+    padding-left: 0.3em;
+    font-size: 26px;
+}
+
+.ProjectsContainer section .Article a {
     color: var(--text-color);
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -32,11 +44,16 @@
     position: relative;
     transition: all 0.2s ease-in-out;
 }
-.ProjectsContainer section article a:hover {
+.ProjectsContainer section .Article a:hover {
     text-decoration-line: underline;
 }
 @media only screen and (max-width: 535px) {
-    .ProjectsContainer section article a {
+    .ProjectsContainer section .Article a {
         font-size: 1em;
     }
 }
+
+/* .ProjectsContainer section .Article a::after {
+    content: ">";
+    padding-left: 0.3em;
+} */

@@ -3,31 +3,3 @@
     align-items: center;
     flex-direction: column;
 }
-
-.HomeMyNameContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 578px;
-}
-
-.HomeMyNameContainer span {
-    font-size: 8rem;
-    font-family: "Italiana", sans-serif;
-    line-height: 1.05;
-    color: var(--white);
-}
-@media (max-width: 565px) {
-    .HomeMyNameContainer span {
-        font-size: 7rem;
-    }
-}
-
-.HomeMyNameContainer p {
-    margin: 2em 0;
-}
-
-.HomeAboutMe {
-    text-transform: uppercase;
-}

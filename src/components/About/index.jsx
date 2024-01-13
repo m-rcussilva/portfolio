@@ -4,18 +4,16 @@ function About() {
     return (
         <div className={styles.About}>
             <div className={styles.AboutContainer}>
-                <div className={styles.AboutContainerBox}>
-                    <p>Formação acadêmica em andamento</p>
-                    <span>Análise e Desenvolvimento de Sistemas</span>
-                </div>
-                <div className={styles.AboutContainerBox}>
-                    <p>...</p>
-                    <span>...</span>
-                </div>
-                <div className={styles.AboutContainerBox}>
-                    <p>...</p>
-                    <span>...</span>
-                </div>
+                <p>
+                    Olá, eu me chamo Marcus Silva. Seja bem-vindo(a) ao meu
+                    portfólio!
+                </p>
+                <p>
+                    Estou cursando Análise e Desenvolvimento de Sistemas,
+                    focando atualmente em desenvolvimento backend com Java,
+                    Spring e seu ecossistema, Apache Kafka e banco de dados
+                    relacionais.
+                </p>
             </div>
         </div>
     )

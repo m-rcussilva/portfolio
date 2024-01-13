@@ -8,35 +8,44 @@ function Projects() {
                     <h4>Projetos</h4>
                 </header>
                 <section>
-                    <article>
-                        <p>Ano: 2023</p>
-                        <a
-                            href="https://github.com/m-rcussilva/admin-panel"
-                            target="_blank"
-                        >
-                            Painel Administrativo para gerenciamento de
-                            funcionários
-                        </a>
+                    <article className={styles.Article}>
+                        <p className={styles.YearPublished}>Ano: 2023</p>
+                        <div className={styles.ArticleLink}>
+                            <a
+                                href="https://github.com/m-rcussilva/admin-panel"
+                                target="_blank"
+                            >
+                                Painel Administrativo para gerenciamento de
+                                funcionários
+                            </a>
+                            <span>&gt;</span>
+                        </div>
                     </article>
-                    <article>
-                        <p>Ano: 2023</p>
-                        <a
-                            href="https://github.com/m-rcussilva/favorite-reads"
-                            target="_blank"
-                        >
-                            Projeto de Gestão de Leituras com Spring Boot e
-                            Thymeleaf
-                        </a>
+                    <article className={styles.Article}>
+                        <p className={styles.YearPublished}>Ano: 2023</p>
+                        <div className={styles.ArticleLink}>
+                            <a
+                                href="https://github.com/m-rcussilva/favorite-reads"
+                                target="_blank"
+                            >
+                                Projeto de Gestão de Leituras com Spring Boot e
+                                Thymeleaf
+                            </a>
+                            <span>&gt;</span>
+                        </div>
                     </article>
-                    <article>
-                        <p>Ano: 2023</p>
-                        <a
-                            href="https://github.com/m-rcussilva/rest-api-sa-countries"
-                            target="_blank"
-                        >
-                            API de Informações sobre Países da América do Sul
-                            usando Java Spring Boot e Vue.js
-                        </a>
+                    <article className={styles.Article}>
+                        <p className={styles.YearPublished}>Ano: 2023</p>
+                        <div className={styles.ArticleLink}>
+                            <a
+                                href="https://github.com/m-rcussilva/rest-api-sa-countries"
+                                target="_blank"
+                            >
+                                API de Informações sobre Países da América do
+                                Sul usando Java Spring Boot e Vue.js
+                            </a>
+                            <span>&gt;</span>
+                        </div>
                     </article>
                 </section>
             </div>

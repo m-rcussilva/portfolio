@@ -5,7 +5,13 @@ const Header = () => {
     return (
         <header className={styles.Header}>
             <div className={styles.HeaderContainer}>
-                <ArrowDownRight size={32} />
+                <p>🐦‍⬛</p>
+
+                <ul>
+                    <li>
+                        <a href="#">Connect with me</a>
+                    </li>
+                </ul>
             </div>
         </header>
     )

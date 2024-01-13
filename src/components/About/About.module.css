@@ -1,33 +1,11 @@
 .About {
-    width: 100%;
-    margin-bottom: 4em;
+    margin-bottom: 2rem;
 }
 
-.AboutContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    height: 165px;
-    max-width: 1280px;
-    margin: 0 auto;
-}
-@media (max-width: 614px) {
-    .AboutContainer {
-        grid-template-columns: 1fr;
-        margin-bottom: 1em;
-        height: 100%;
-    }
+.About .AboutContainer {
+    padding: 1em;
 }
 
-.AboutContainer .AboutContainerBox {
-    margin: 1em;
-    text-align: center;
-}
-
-.AboutContainer .AboutContainerBox p {
-    margin-bottom: 0.5em;
-    background-color: var(--secondary);
-    text-transform: uppercase;
-    font-family: "Krona One", sans-serif;
-    font-weight: 500;
-    padding: 1rem;
+.About .AboutContainer p:first-child {
+    margin-bottom: 0.5rem;
 }
