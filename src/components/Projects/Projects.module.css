@@ -1,5 +1,6 @@
 .Projects {
     width: 100%;
+    margin-bottom: 1.5rem;
 }
 
 .Projects header h4 {
@@ -24,19 +25,8 @@
     font-size: 12px;
 }
 
-.ArticleLink {
-    display: flex;
-    align-items: center;
-}
-
-.ArticleLink span {
-    padding-left: 0.3em;
-    font-size: 26px;
-}
-
 .ProjectsContainer section .Article a {
-    color: var(--text-color);
-    font-size: 1.5rem;
+    color: var(--link);
     text-transform: uppercase;
     font-weight: 500;
     overflow: hidden;
@@ -47,13 +37,3 @@
 .ProjectsContainer section .Article a:hover {
     text-decoration-line: underline;
 }
-@media only screen and (max-width: 535px) {
-    .ProjectsContainer section .Article a {
-        font-size: 1em;
-    }
-}
-
-/* .ProjectsContainer section .Article a::after {
-    content: ">";
-    padding-left: 0.3em;
-} */

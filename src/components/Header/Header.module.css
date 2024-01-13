@@ -24,7 +24,7 @@
 
 .HeaderContainer ul li a::after {
     content: "";
-    background-color: black;
+    background-color: #000;
     position: absolute;
     bottom: 0;
     left: 0;

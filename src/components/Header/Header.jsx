@@ -1,5 +1,4 @@
 import styles from "./Header.module.css"
-import { ArrowDownRight } from "phosphor-react"
 
 const Header = () => {
     return (
