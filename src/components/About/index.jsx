@@ -10,9 +10,7 @@ function About() {
                 </p>
                 <p>
                     Estou cursando Análise e Desenvolvimento de Sistemas,
-                    focando atualmente em desenvolvimento backend com Java,
-                    Spring e seu ecossistema, Apache Kafka e banco de dados
-                    relacionais.
+                    focando atualmente em desenvolvimento backend com Go, Java, C e banco de dados relacionais.
                 </p>
             </div>
         </div>
