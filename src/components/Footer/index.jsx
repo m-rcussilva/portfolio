@@ -25,6 +25,14 @@ const Footer = () => {
                     </li>
                     <li>
                         <a
+                            href="https://www.linkedin.com/in/marcusluissilva/"
+                            target="_blank"
+                        >
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a
                             href="https://www.last.fm/user/m-rcusluis"
                             target="_blank"
                         >

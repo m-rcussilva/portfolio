@@ -36,3 +36,7 @@
 .HeaderContainer ul li a:hover::after {
     width: 100%;
 }
+
+.LogoImg {
+    height: 100px;
+}
