@@ -1,10 +1,14 @@
 .About {
     margin-bottom: 2rem;
+    padding: 1em;
+    width: 100%;
 }
 
+/*
 .About .AboutContainer {
     padding: 1em;
 }
+*/
 
 .About .AboutContainer p:first-child {
     margin-bottom: 0.5rem;
