@@ -1,5 +1,5 @@
 .Footer {
-    padding: 1em;
+    padding: 4em 1em;
     width: 100%;
 }
 
@@ -30,17 +30,19 @@
     justify-content: center;
 }
 
+.FooterContainer ul li {
+    margin-right: 14px;
+}
+.FooterContainer ul li:last-child {
+    margin-right: 0;
+}
+
 .FooterContainer ul li a {
-    margin: 0 1.8em;
     font-size: 14px;
     text-transform: uppercase;
     color: #000;
     position: relative;
     font-weight: 500;
-}
-
-.FooterContainer ul li a:last-child {
-    margin-right: 0;
 }
 
 .FooterContainer ul li a::after {

@@ -6,12 +6,14 @@ import Footer from "../../components/Footer"
 
 function Home() {
     return (
-        <div className={styles.Home}>
+        <>
             <Header />
-            <About />
-            <Projects />
-            <Footer />
-        </div>
+            <div className={styles.Home}>
+                <About />
+                <Projects />
+                <Footer />
+            </div>
+        </>
     )
 }
 

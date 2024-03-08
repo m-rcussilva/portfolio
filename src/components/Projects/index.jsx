@@ -9,6 +9,18 @@ function Projects() {
                 </header>
                 <section>
                     <article className={styles.Article}>
+                        <p className={styles.YearPublished}>Ano: 2024</p>
+
+                        <a
+                            href="https://github.com/m-rcussilva/shorts-to-standard"
+                            target="_blank"
+                        >
+                            Extensão para o navegador Firefox. Converter vídeos no formato Shorts
+                            para o formato padrão.
+                        </a>
+                    </article>
+
+                    <article className={styles.Article}>
                         <p className={styles.YearPublished}>Ano: 2023</p>
 
                         <a
@@ -19,6 +31,7 @@ function Projects() {
                             funcionários
                         </a>
                     </article>
+
                     <article className={styles.Article}>
                         <p className={styles.YearPublished}>Ano: 2023</p>
 
@@ -30,6 +43,7 @@ function Projects() {
                             Thymeleaf
                         </a>
                     </article>
+
                     <article className={styles.Article}>
                         <p className={styles.YearPublished}>Ano: 2023</p>
 
