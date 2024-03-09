@@ -5,8 +5,7 @@ function About() {
         <div className={styles.About}>
             <div className={styles.AboutContainer}>
                 <p>
-                    Olá, eu me chamo Marcus Silva. Seja bem-vindo(a) ao meu
-                    portfólio!
+                    Olá, eu me chamo Marcus Silva.
                 </p>
                 <p>
                     Estou cursando Análise e Desenvolvimento de Sistemas,<br/>
